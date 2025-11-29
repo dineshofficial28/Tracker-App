@@ -35,7 +35,3 @@ def delete_task(task_id: int):
     tasks = [task for task in tasks if task.id != task_id]
     save_tasks(tasks)
     return {"detail": "Task deleted"}
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
