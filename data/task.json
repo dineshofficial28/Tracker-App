@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Morning Exercise",
+        "description": "30 minutes of cardio, stretching",
+        "frequency": "daily",
+        "completed": true
+    },
+    {
+        "id": 2,
+        "title": "Weekend Exercise",
+        "description": "Yoga and running on weekends",
+        "frequency": "weekly",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "title": "home Exercise",
+        "description": "home workouts daily",
+        "frequency": "daily",
+        "completed": false
+    }
+]
